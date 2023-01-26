@@ -35,9 +35,6 @@ def predict():
     except KeyError:
         LOG.info("Key error")
         return "Model not loaded"
-    except Exception:
-        LOG.info("JSON payload: %s json_payload")
-        return "Model not loaded"
 
     json_payload = request.json
     LOG.info("JSON payload: %s json_payload")
