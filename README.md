@@ -18,6 +18,7 @@ Web app to predoct housing prices in Boston according to several features, such 
 * Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
+![Screenshot project cloned](/screenshot_cloned_project.png "Screenshot cloned project")
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
