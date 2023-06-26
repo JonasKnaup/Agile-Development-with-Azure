@@ -18,14 +18,14 @@ variables:
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
-pool: myAgentPool2
+pool: myAgentPool
 
 stages:
 - stage: Build
   displayName: Build stage
   jobs:
   - job: BuildJob
-    pool: myAgentPool2
+    pool: myAgentPool
     steps:    
     - script: |
         python3.7 -m pip install --upgrade pip
@@ -59,7 +59,7 @@ stages:
   condition: succeeded()
   jobs:
   - deployment: DeploymentJob
-    pool: myAgentPool2
+    pool: myAgentPool
     environment: $(environmentName)
     strategy:
       runOnce:
