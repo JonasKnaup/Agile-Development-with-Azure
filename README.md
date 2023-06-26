@@ -1,11 +1,11 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+Web app to predoct housing prices in Boston according to several features, such as average rooms in a home and data about highway access & teacher-to-pupil ratios.
 
 ## Project Plan
 <TODO: Project Plan
 
-* [Link](https://trello.com/invite/b/MexcHCSu/ATTIdec260745c755e60868ae543b0189d643224ED12/agile-development-with-azure) to Trello
+* [Link](https://trello.com/invite/b/MexcHCSu/ATTIdec260745c755e60868ae543b0189d643224ED12/agile-development-with-azure) to Trello board
 * [Link](https://github.com/JonasKnaup/Agile-Development-with-Azure/blob/main/project-management.xlsx) to a spreadsheet that includes the project plan
 
 ## Instructions
@@ -18,6 +18,7 @@
 * Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
+![Screenshot project cloned](/screenshot_cloned_project.png "Screenshot cloned project")
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
