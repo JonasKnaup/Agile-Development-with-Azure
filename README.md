@@ -6,7 +6,7 @@
 <TODO: Project Plan
 
 * [Link](https://trello.com/invite/b/MexcHCSu/ATTIdec260745c755e60868ae543b0189d643224ED12/agile-development-with-azure) to Trello
-* A link to a spreadsheet that includes the original and final project plan>
+* [Link](https://github.com/JonasKnaup/Agile-Development-with-Azure/blob/main/project-management.xlsx) to a spreadsheet that includes the project plan
 
 ## Instructions
 
